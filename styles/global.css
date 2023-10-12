@@ -13,12 +13,17 @@
 @layer components {
     .btn-primary {
         @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
-        @apply hover:bg-blue-600;
+        @apply hover:bg-blue-600 focus-visible:ring-2 focus-visible:ring-blue-300;
     }
 
     .card {
         @apply bg-white shadow-lg rounded-lg p-6;
         @apply transition-all hover:shadow-2xl;
+    }
+
+    .link {
+        @apply text-blue-500 underline;
+        @apply hover:text-blue-700 focus-visible:ring-2 focus-visible:ring-blue-300;
     }
 }
 
