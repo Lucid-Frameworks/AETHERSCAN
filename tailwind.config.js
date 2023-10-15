@@ -8,6 +8,9 @@ module.exports = {
     ],
     theme: {
         extend: {
+            screens: {
+                xs: "480px", // Added extra small breakpoint
+            },
             spacing: {
                 '128': '32rem',
                 '144': '36rem',
