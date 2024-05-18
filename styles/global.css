@@ -5,8 +5,9 @@
 /* Custom styles */
 @layer base {
     body {
-        font-family: 'Inter', sans-serif; /* Set custom base font */
-        background-color: #f8fafc; /* Light background */
+        font-family: 'Inter', sans-serif;
+        background-color: #f8fafc;
+        @apply dark:bg-gray-900 dark:text-white;
     }
 }
 
@@ -14,16 +15,19 @@
     .btn-primary {
         @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
         @apply hover:bg-blue-600 focus-visible:ring-2 focus-visible:ring-blue-300;
+        @apply dark:bg-blue-700 dark:hover:bg-blue-800;
     }
 
     .card {
         @apply bg-white shadow-lg rounded-lg p-6;
         @apply transition-all hover:shadow-2xl;
+        @apply dark:bg-gray-800 dark:shadow-none;
     }
 
     .link {
         @apply text-blue-500 underline;
         @apply hover:text-blue-700 focus-visible:ring-2 focus-visible:ring-blue-300;
+        @apply dark:text-blue-300 dark:hover:text-blue-400;
     }
 }
 
