@@ -1,10 +1,10 @@
 module.exports = {
-    darkMode: "class", // Enables class-based dark mode
+    darkMode: "class",
     content: [
         "./pages/**/*.{js,ts,jsx,tsx}",
         "./components/**/*.{js,ts,jsx,tsx}",
-        "./layouts/**/*.{js,ts,jsx,tsx}", // Added support for layouts directory
-        "./widgets/**/*.{js,ts,jsx,tsx}", // Added support for widgets directory
+        "./layouts/**/*.{js,ts,jsx,tsx}",
+        "./widgets/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
         extend: {
@@ -31,10 +31,9 @@ module.exports = {
                 center: true,
                 padding: "1rem",
             },
-            boxShadow: {
-                'soft': '0 4px 6px rgba(0, 0, 0, 0.1)', // Soft shadow for subtle depth
-                'medium': '0 6px 10px rgba(0, 0, 0, 0.15)', // Medium shadow for contrast
-                'large': '0 10px 20px rgba(0, 0, 0, 0.2)', // Large shadow for emphasis
+            backgroundImage: {
+                'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+                'gradient-linear': 'linear-gradient(to right, #1E40AF, #FBBF24)',
             },
         },
     },
