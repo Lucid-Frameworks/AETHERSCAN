@@ -31,9 +31,10 @@ module.exports = {
                 center: true,
                 padding: "1rem",
             },
-            backgroundImage: {
-                'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-                'gradient-linear': 'linear-gradient(to right, #1E40AF, #FBBF24)',
+            letterSpacing: {
+                tighter: '-0.05em',
+                normal: '0',
+                wider: '0.05em',
             },
         },
     },
