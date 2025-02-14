@@ -1,4 +1,6 @@
 # AETHERSCAN
+![AETHERSCAN Logo](https://github.com/Lucid-Frameworks/AETHERSCAN/blob/704f8e9a3f2547b0bea1b5cb69cf905661db5dce/AETHERSCAN.png)
+
 
 ## Introduction
 AETHERSCAN is a cutting-edge blockchain intelligence platform that provides real-time sentiment tracking and predictive analytics for digital assets. Powered by advanced AI algorithms, AETHERSCAN equips investors and traders with deep market insights, trend forecasts, and intuitive data visualizations within a sleek, modern interface.
