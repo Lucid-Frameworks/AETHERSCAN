@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Navbar />
       {loading ? (
-        <div className="flex justify-center items-center min-h-screen">
+        <div className="flex justify-center items-center min-h-screen bg-gray-100"> {/* Added background color */}
           <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-blue-500"></div>
         </div>
       ) : (
