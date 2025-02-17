@@ -6,6 +6,7 @@ export default function Home() {
       <Head>
         <title>AETHERSCAN - Blockchain Intelligence</title>
         <meta name="description" content="AETHERSCAN provides real-time sentiment tracking, AI-powered analytics, and predictive insights for digital assets." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> {/* Added meta tag for mobile responsiveness */}
       </Head>
       <main className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white text-center px-4">
         <h1 className="text-4xl font-bold">Welcome to AETHERSCAN</h1>
