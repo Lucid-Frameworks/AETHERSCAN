@@ -20,22 +20,24 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Navbar />
-      {loading ? (
-        <div
-          className="flex justify-center items-center min-h-screen bg-gray-100 dark:bg-gray-900"
-          role="status"
-          aria-live="polite"
-        >
-          <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-blue-500 dark:border-blue-300"></div>
-          <span className="sr-only">Loading...</span>
-        </div>
-      ) : (
-        <div
-          className={`transition-opacity duration-700 ${fade ? "opacity-100" : "opacity-0"}`}
-        >
-          <Component {...pageProps} />
-        </div>
-      )}
+      <main className="flex-grow">
+        {loading ? (
+          <div
+            className="flex justify-center items-center min-h-screen bg-gray-100 dark:bg-gray-900"
+            role="status"
+            aria-live="polite"
+          >
+            <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-blue-500 dark:border-blue-300"></div>
+            <span className="sr-only">Loading...</span>
+          </div>
+        ) : (
+          <div
+            className={`transition-opacity duration-700 ${fade ? "opacity-100" : "opacity-0"}`}
+          >
+            <Component {...pageProps} />
+          </div>
+        )}
+      </main>
       <Footer />
     </>
   );
