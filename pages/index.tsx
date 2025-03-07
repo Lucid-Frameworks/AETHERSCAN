@@ -18,13 +18,6 @@ export default function Home() {
         <title>AETHERSCAN - Blockchain Intelligence</title>
         <meta name="description" content="AETHERSCAN provides real-time sentiment tracking, AI-powered analytics, and predictive insights for digital assets." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="AETHERSCAN - Blockchain Intelligence" />
-        <meta property="og:description" content="AETHERSCAN provides real-time sentiment tracking, AI-powered analytics, and predictive insights for digital assets." />
-        <meta property="og:image" content="https://example.com/og-image.jpg" />
-        <meta property="og:url" content="https://www.aetherscan.com" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="AETHERSCAN - Blockchain Intelligence" />
-        <meta name="twitter:description" content="AETHERSCAN provides real-time sentiment tracking, AI-powered analytics, and predictive insights for digital assets." />
       </Head>
       <main className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white text-center px-4">
         <h1 className="text-4xl font-bold">Welcome to AETHERSCAN</h1>
