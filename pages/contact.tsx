@@ -1,8 +1,11 @@
 import Head from "next/head";
+
 export default function Contact() {
   return (
     <>
-      <Head><title>Contact - AETHERSCAN</title></Head>
+      <Head>
+        <title>Contact - AETHERSCAN</title>
+      </Head>
       <main className="p-10 text-white">
         <h1 className="text-3xl font-bold">Contact Us</h1>
         <form className="mt-4 max-w-lg">
