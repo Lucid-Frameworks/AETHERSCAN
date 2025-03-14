@@ -35,6 +35,11 @@
         @apply transition-all hover:shadow-2xl;
         @apply dark:bg-gray-800 dark:shadow-none;
         animation: fade-in 0.5s ease-in-out;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
     }
 }
 
