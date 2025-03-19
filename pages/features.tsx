@@ -20,8 +20,22 @@ export default function Features() {
           <li><strong>📈 Trend Forecasting</strong> - Predict market movements with AI-driven models.</li>
           <li><strong>🔍 On-Chain Analysis</strong> - Track blockchain activity for enhanced transparency.</li>
         </ul>
+
+        {/* Added detailed descriptions */}
+        <div className="mt-6">
+          <h3 className="text-xl font-semibold">Real-time Sentiment Tracking</h3>
+          <p>Our sentiment tracking allows you to monitor market emotions in real-time, giving you an edge in decision-making.</p>
+          
+          <h3 className="text-xl font-semibold mt-4">AI-Powered Analytics</h3>
+          <p>Leverage advanced machine learning algorithms to gain deep insights into market trends and behavior.</p>
+          
+          <h3 className="text-xl font-semibold mt-4">Trend Forecasting</h3>
+          <p>Utilize our AI-driven models to forecast future market movements, providing you with a predictive advantage.</p>
+          
+          <h3 className="text-xl font-semibold mt-4">On-Chain Analysis</h3>
+          <p>Track blockchain activity and monitor real-time data for enhanced transparency in the crypto space.</p>
+        </div>
       </main>
     </>
   );
 }
-  
