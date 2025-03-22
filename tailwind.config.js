@@ -40,10 +40,31 @@ module.exports = {
                 'gradient-radial': "radial-gradient(var(--tw-gradient-stops))",
                 'gradient-linear': "linear-gradient(to right, var(--tw-gradient-stops))",
             },
+            boxShadow: {
+                soft: "0 4px 6px rgba(0, 0, 0, 0.1)",
+                deep: "0 10px 15px rgba(0, 0, 0, 0.2)",
+            },
+            animation: {
+                fadeIn: "fadeIn 0.5s ease-in-out",
+                slideUp: "slideUp 0.4s ease-out",
+            },
+            keyframes: {
+                fadeIn: {
+                    "0%": { opacity: 0 },
+                    "100%": { opacity: 1 },
+                },
+                slideUp: {
+                    "0%": { transform: "translateY(10px)", opacity: 0 },
+                    "100%": { transform: "translateY(0)", opacity: 1 },
+                },
+            },
         },
     },
     plugins: [
         require("@tailwindcss/forms"),
         require("@tailwindcss/typography"),
+        require("@tailwindcss/aspect-ratio"),
+        require("@tailwindcss/line-clamp"),
+        require("tailwindcss-animate"), // Added for animations
     ],
 };
