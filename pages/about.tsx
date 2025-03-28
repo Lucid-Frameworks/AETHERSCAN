@@ -34,10 +34,14 @@ export default function About() {
       <main className="p-10 text-gray-900 dark:text-white dark:bg-gray-900">
         <h1 className="text-3xl font-bold">About Us</h1>
         <p className="mt-4">
-          AETHERSCAN is a blockchain intelligence platform designed to equip investors with cutting-edge insights.
+          AETHERSCAN is a blockchain intelligence platform designed to equip investors with cutting-edge insights, powered by AI and blockchain technology.
+        </p>
+
+        <h2 className="mt-6 text-2xl font-semibold">Our Team</h2>
+        <p className="mt-2">
+          We are a team of passionate professionals with a background in blockchain, data science, and finance, committed to providing transparent and reliable insights.
         </p>
       </main>
     </>
   );
 }
- 
