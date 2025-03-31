@@ -35,6 +35,16 @@ export default function Features() {
           <h3 className="text-xl font-semibold mt-4">On-Chain Analysis</h3>
           <p>Track blockchain activity and monitor real-time data for enhanced transparency in the crypto space.</p>
         </div>
+
+        {/* Added CTA buttons */}
+        <div className="mt-8 flex space-x-4">
+          <a href="/about" className="px-6 py-3 bg-blue-600 rounded-lg text-white hover:bg-blue-700 transition" aria-label="Learn more about AETHERSCAN">
+            Learn More
+          </a>
+          <a href="/sign-up" className="px-6 py-3 bg-green-600 rounded-lg text-white hover:bg-green-700 transition" aria-label="Get started with AETHERSCAN">
+            Get Started
+          </a>
+        </div>
       </main>
     </>
   );
