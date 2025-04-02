@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <main className="flex-grow">
         {loading ? (
           <div
-            className="flex justify-center items-center min-h-screen bg-gray-100 dark:bg-gray-900"
+            className="flex justify-center items-center min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors duration-700"
             role="status"
             aria-live="polite"
           >
