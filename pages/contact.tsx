@@ -9,6 +9,7 @@ export default function Contact() {
   });
 
   const [error, setError] = useState<string | null>(null);
+  const [success, setSuccess] = useState<boolean>(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -19,8 +20,10 @@ export default function Contact() {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.message) {
       setError("All fields are required.");
+      setSuccess(false);
     } else {
       setError(null);
+      setSuccess(true);
       // Submit form logic
     }
   };
@@ -33,6 +36,7 @@ export default function Contact() {
       <main className="p-10 text-white">
         <h1 className="text-3xl font-bold">Contact Us</h1>
         {error && <p className="text-red-500">{error}</p>}
+        {success && <p className="text-green-500">Your message has been sent successfully!</p>}
         <form className="mt-4 max-w-lg" onSubmit={handleSubmit}>
           <input
             type="text"
