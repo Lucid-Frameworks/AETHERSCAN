@@ -41,6 +41,18 @@ export default function About() {
         <p className="mt-2">
           We are a team of passionate professionals with a background in blockchain, data science, and finance, committed to providing transparent and reliable insights.
         </p>
+
+        <h2 className="mt-6 text-2xl font-semibold">Our Mission</h2>
+        <p className="mt-2">
+          Our mission is to revolutionize blockchain analytics by providing investors with the tools they need to make data-driven decisions and stay ahead of market trends.
+        </p>
+
+        <h2 className="mt-6 text-2xl font-semibold">Our Values</h2>
+        <ul className="mt-4 list-disc pl-5">
+          <li>Transparency in data</li>
+          <li>Innovation and continuous improvement</li>
+          <li>Commitment to providing value to investors</li>
+        </ul>
       </main>
     </>
   );
