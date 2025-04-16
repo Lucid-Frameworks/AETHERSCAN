@@ -7,6 +7,7 @@ import { useState, useEffect } from "react";
 export default function App({ Component, pageProps }: AppProps) {
   const [loading, setLoading] = useState(true);
   const [fade, setFade] = useState(false);
+  const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -14,8 +15,25 @@ export default function App({ Component, pageProps }: AppProps) {
       setFade(true);
     }, 1000); // Simulate loading delay
 
+    // Check for user preference on dark mode
+    const savedMode = localStorage.getItem("darkMode");
+    if (savedMode === "true") {
+      setDarkMode(true);
+      document.documentElement.classList.add("dark");
+    }
+
     return () => clearTimeout(timer);
   }, []);
+
+  useEffect(() => {
+    // Save user preference for dark mode
+    localStorage.setItem("darkMode", darkMode.toString());
+    if (darkMode) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [darkMode]);
 
   return (
     <>
