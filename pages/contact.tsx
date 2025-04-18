@@ -42,7 +42,7 @@ export default function Contact() {
             type="text"
             name="name"
             placeholder="Your Name"
-            className="w-full p-2 mb-2"
+            className="w-full p-3 mb-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             value={formData.name}
             onChange={handleChange}
           />
@@ -50,18 +50,18 @@ export default function Contact() {
             type="email"
             name="email"
             placeholder="Your Email"
-            className="w-full p-2 mb-2"
+            className="w-full p-3 mb-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             value={formData.email}
             onChange={handleChange}
           />
           <textarea
             name="message"
             placeholder="Your Message"
-            className="w-full p-2 mb-2"
+            className="w-full p-3 mb-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             value={formData.message}
             onChange={handleChange}
           ></textarea>
-          <button type="submit" className="bg-blue-500 px-4 py-2 text-white">Send</button>
+          <button type="submit" className="bg-blue-500 px-6 py-3 text-white rounded-lg hover:bg-blue-600 transition">Send</button>
         </form>
       </main>
     </>
