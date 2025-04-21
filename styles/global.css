@@ -65,19 +65,4 @@
     .text-custom-yellow {
         color: #FBBF24;
     }
-
-    /* Add responsive design tweaks */
-    @media (max-width: 768px) {
-        .text-xl-custom {
-            font-size: 1.25rem;
-        }
-
-        .text-2xl-custom {
-            font-size: 1.75rem;
-        }
-
-        .text-3xl-custom {
-            font-size: 2rem;
-        }
-    }
 }
