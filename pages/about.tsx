@@ -53,6 +53,14 @@ export default function About() {
           <li>Innovation and continuous improvement</li>
           <li>Commitment to providing value to investors</li>
         </ul>
+
+        <h2 className="mt-6 text-2xl font-semibold">Our Timeline</h2>
+        <ul className="mt-4 space-y-2">
+          <li><strong>2021:</strong> AETHERSCAN was founded with the vision of improving blockchain transparency.</li>
+          <li><strong>2022:</strong> Introduced real-time sentiment tracking and AI-powered analytics.</li>
+          <li><strong>2023:</strong> Expanded to offer trend forecasting and on-chain analysis features.</li>
+          <li><strong>2024:</strong> Became a leading platform for blockchain intelligence with over 100K users.</li>
+        </ul>
       </main>
     </>
   );
