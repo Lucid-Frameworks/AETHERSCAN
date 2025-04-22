@@ -34,7 +34,7 @@ export default function Navbar() {
       </div>
 
       {isMobileMenuOpen && (
-        <div className="md:hidden mt-4" role="menu" aria-label="Mobile menu">
+        <div className="md:hidden mt-4 transition-all ease-in-out duration-500" role="menu" aria-label="Mobile menu">
           <Link href="/features">
             <a className="block py-2" role="menuitem" tabIndex={0}>Features</a>
           </Link>
