@@ -45,6 +45,21 @@ export default function Features() {
             Get Started
           </a>
         </div>
+
+        {/* Added testimonials */}
+        <div className="mt-12">
+          <h3 className="text-2xl font-semibold">What our users say:</h3>
+          <div className="mt-6 space-y-4">
+            <div className="bg-gray-800 p-6 rounded-lg">
+              <p className="text-gray-300">"AETHERSCAN has transformed the way I approach digital asset investments. The sentiment tracking is a game-changer!"</p>
+              <p className="mt-2 text-right font-semibold text-white">- Investor A</p>
+            </div>
+            <div className="bg-gray-800 p-6 rounded-lg">
+              <p className="text-gray-300">"The AI-powered insights provided by AETHERSCAN have given me a clear edge in forecasting trends. Highly recommended!"</p>
+              <p className="mt-2 text-right font-semibold text-white">- Investor B</p>
+            </div>
+          </div>
+        </div>
       </main>
     </>
   );
