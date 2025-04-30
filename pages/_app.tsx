@@ -45,7 +45,7 @@ export default function App({ Component, pageProps }: AppProps) {
             role="status"
             aria-live="polite"
           >
-            <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-blue-500 dark:border-blue-300"></div>
+            <div className="animate-spin rounded-full h-16 w-16 border-b-4 border-blue-500 dark:border-blue-300"></div>
             <span className="sr-only">Loading...</span>
           </div>
         ) : (
