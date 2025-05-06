@@ -61,6 +61,14 @@ export default function About() {
           <li><strong>2023:</strong> Expanded to offer trend forecasting and on-chain analysis features.</li>
           <li><strong>2024:</strong> Became a leading platform for blockchain intelligence with over 100K users.</li>
         </ul>
+
+        {/* Added FAQ section */}
+        <h2 className="mt-6 text-2xl font-semibold">Frequently Asked Questions</h2>
+        <ul className="mt-4 space-y-2">
+          <li><strong>What is AETHERSCAN?</strong> AETHERSCAN is a platform that provides real-time blockchain intelligence to help investors make informed decisions.</li>
+          <li><strong>How can I use AETHERSCAN?</strong> You can use AETHERSCAN by signing up to access real-time sentiment data, analytics, and forecasting tools.</li>
+          <li><strong>Is there a free version of AETHERSCAN?</strong> Yes, we offer a free version with limited features, and a premium version for advanced tools.</li>
+        </ul>
       </main>
     </>
   );
