@@ -14,13 +14,13 @@ export default function Navbar() {
         </Link>
         <div className="hidden md:flex">
           <Link href="/features">
-            <a className="mx-2" role="link" tabIndex={0}>Features</a>
+            <a className="mx-2 hover:text-blue-400 active:text-blue-500" role="link" tabIndex={0}>Features</a>
           </Link>
           <Link href="/about">
-            <a className="mx-2" role="link" tabIndex={0}>About</a>
+            <a className="mx-2 hover:text-blue-400 active:text-blue-500" role="link" tabIndex={0}>About</a>
           </Link>
           <Link href="/contact">
-            <a className="mx-2" role="link" tabIndex={0}>Contact</a>
+            <a className="mx-2 hover:text-blue-400 active:text-blue-500" role="link" tabIndex={0}>Contact</a>
           </Link>
         </div>
         <button
@@ -36,13 +36,13 @@ export default function Navbar() {
       {isMobileMenuOpen && (
         <div className="md:hidden mt-4 transition-all ease-in-out duration-500" role="menu" aria-label="Mobile menu">
           <Link href="/features">
-            <a className="block py-2" role="menuitem" tabIndex={0}>Features</a>
+            <a className="block py-2 hover:text-blue-400 active:text-blue-500" role="menuitem" tabIndex={0}>Features</a>
           </Link>
           <Link href="/about">
-            <a className="block py-2" role="menuitem" tabIndex={0}>About</a>
+            <a className="block py-2 hover:text-blue-400 active:text-blue-500" role="menuitem" tabIndex={0}>About</a>
           </Link>
           <Link href="/contact">
-            <a className="block py-2" role="menuitem" tabIndex={0}>Contact</a>
+            <a className="block py-2 hover:text-blue-400 active:text-blue-500" role="menuitem" tabIndex={0}>Contact</a>
           </Link>
         </div>
       )}
