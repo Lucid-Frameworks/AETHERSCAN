@@ -36,7 +36,7 @@ export default function App({ Component, pageProps }: AppProps) {
   }, [darkMode]);
 
   return (
-    <>
+    <ErrorBoundary>
       <Navbar />
       <main className="flex-grow">
         {loading ? (
@@ -57,7 +57,6 @@ export default function App({ Component, pageProps }: AppProps) {
         )}
       </main>
       <Footer />
-    </>
+    </ErrorBoundary>
   );
 }
- 
