@@ -26,8 +26,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white text-center px-4 bg-cover" style={{ backgroundImage: "url('/hero-image.jpg')" }}>
-        <h1 className="text-4xl font-bold">Welcome to AETHERSCAN</h1>
-        <p className="mt-4 max-w-lg">
+        <h1 className="text-4xl font-bold animate__animated animate__fadeIn">Welcome to AETHERSCAN</h1>
+        <p className="mt-4 max-w-lg animate__animated animate__fadeIn animate__delay-1s">
           Real-time sentiment tracking, AI-powered analytics, and predictive insights for digital assets.
         </p>
 
@@ -55,4 +55,3 @@ export default function Home() {
     </>
   );
 }
-  
