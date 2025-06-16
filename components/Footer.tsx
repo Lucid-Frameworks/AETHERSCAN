@@ -7,31 +7,31 @@ export default function Footer() {
           href="https://twitter.com/AetherscanAI"
           className="mx-2 text-blue-400 hover:underline transition-transform transform hover:scale-110"
         >
-          Twitter
+          <i className="fab fa-twitter"></i>
         </a>
         <a
           href="https://discord.gg/samplelink"
           className="mx-2 text-blue-400 hover:underline transition-transform transform hover:scale-110"
         >
-          Discord
+          <i className="fab fa-discord"></i>
         </a>
         <a
           href="https://github.com/Aetherscan"
           className="mx-2 text-blue-400 hover:underline transition-transform transform hover:scale-110"
         >
-          GitHub
+          <i className="fab fa-github"></i>
         </a>
         <a
           href="https://www.linkedin.com/company/aetherscan"
           className="mx-2 text-blue-400 hover:underline transition-transform transform hover:scale-110"
         >
-          LinkedIn
+          <i className="fab fa-linkedin"></i>
         </a>
         <a
           href="mailto:contact@aetherscan.io"
           className="mx-2 text-blue-400 hover:underline transition-transform transform hover:scale-110"
         >
-          Email
+          <i className="fas fa-envelope"></i>
         </a>
       </div>
     </footer>
