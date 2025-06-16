@@ -56,7 +56,7 @@ export default function App({ Component, pageProps }: AppProps) {
           </div>
         )}
       </main>
-      <Footer />
+      <Footer /> 
     </ErrorBoundary>
   );
 }
